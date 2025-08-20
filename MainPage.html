@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Hezily</title>
+        <!-- Link to external CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" href="logo.png" />
+    </head>
+    <body>
+        <!-- Left Vertical Menu -->
+        <nav class="left-menu" aria-label="Hezily Menu">
+            <!-- User Account -->
+            <div class="user-account">
+                <img src="user_blank.png" alt="User Account" />
+            </div>
+
+            <!-- Menu Links -->
+            <a href="#">Hmail</a>
+            <a href="#">Location</a>
+            <a href="#">Apps</a>
+        </nav>
+
+        <main class="wrap" role="main" aria-labelledby="logo">
+            <!-- Logo -->
+            <h1 id="logo" class="logo" aria-hidden="true">
+                <span class="h1">H</span>
+                <span class="h2">e</span>
+                <span class="h3">z</span>
+                <span class="h4">i</span>
+                <span class="h5">l</span>
+                <span class="h6">y</span>
+            </h1>
+
+            <!-- Search Box -->
+            <form id="searchForm" class="search">
+                <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M21 21l-4.35-4.35"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                    <circle
+                        cx="11"
+                        cy="11"
+                        r="6"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    />
+                </svg>
+                <input
+                    id="q"
+                    name="q"
+                    type="search"
+                    placeholder="Search On Hezily...."
+                    autocomplete="off"
+                    aria-label="Search"
+                />
+                <div class="search-icons">
+                    <img src="mic.png" alt="Mic" class="mic-icon" />
+                    <img src="ai.png" alt="AI" class="ai-icon" />
+                </div>
+            </form>
+
+            <!-- Buttons -->
+            <div class="buttons" role="group" aria-label="Search buttons">
+                <button type="button" class="secondary" id="googleSearchBtn">
+                    Search
+                </button>
+                <button type="button" class="primary" id="luckyBtn">
+                    Chalo, Let’s Go
+                </button>
+            </div>
+        </main>
+
+        <div class="foot">
+            <p class="tagline">
+                Desh Ki Soch, Desh Ka Search – Bharat 🇮🇳 Own Search Engine.
+            </p>
+            <div class="footer-links">
+                <a href="#">Privacy</a> • <a href="#">Setting</a> •
+                <a href="#">Terms</a>
+            </div>
+        </div>
+
+        <!-- External JavaScript -->
+        <script type="text/javascript">
+            (function (l) {
+                if (l.search[1] === "/") {
+                    var decoded = l.search
+                        .slice(1)
+                        .split("&")
+                        .map(function (s) {
+                            return s.replace(/~and~/g, "&");
+                        })
+                        .join("?");
+                    window.history.replaceState(
+                        null,
+                        null,
+                        l.pathname.slice(0, -1) + decoded + l.hash,
+                    );
+                }
+            })(window.location);
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
