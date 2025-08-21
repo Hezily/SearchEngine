@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Homepage -->
+   <url>
+      <loc>https://www.hezily.com/</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+
+   <!-- Hmail page -->
+   <url>
+      <loc>https://www.hezily.com/hmail</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Location page -->
+   <url>
+      <loc>https://www.hezily.com/location</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Apps page -->
+   <url>
+      <loc>https://www.hezily.com/apps</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+   </url>
+
+   <!-- Privacy page -->
+   <url>
+      <loc>https://www.hezily.com/privacy</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+
+   <!-- Terms page -->
+   <url>
+      <loc>https://www.hezily.com/terms</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+
+   <!-- Settings page -->
+   <url>
+      <loc>https://www.hezily.com/settings</loc>
+      <lastmod>2025-08-21</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+
+</urlset>
